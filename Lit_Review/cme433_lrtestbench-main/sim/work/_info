@@ -1,0 +1,120 @@
+m255
+K4
+z2
+!s11f vlog 2020.1_1 2020.03, Mar  4 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/lnz612/cmc/projects/cme433202209/sim
+vexact_mult
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1667496272
+!i10b 1
+!s100 e4VHLVER7XDgWV3ZU?VNa3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRWQLM_LTI8;X23IA>]J<V3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1667495229
+8../src/exact_mult.sv
+F../src/exact_mult.sv
+!i122 18
+L0 1 9
+Z5 OL;L;2020.1_1;71
+r1
+!s85 0
+31
+Z6 !s108 1667496272.000000
+Z7 !s107 ../src/mult16via8.sv|../src/exact_mult.sv|
+Z8 !s90 ../src/exact_mult.sv|../src/mult16via8.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vmult16bvia8bit
+R1
+R2
+!i10b 1
+!s100 GoE4IfBKA_DZ^CUARTbM42
+R3
+IIcfmL_VfSfe6PI^H31:aP2
+R4
+S1
+R0
+w1667495334
+8../src/mult16via8.sv
+F../src/mult16via8.sv
+!i122 18
+L0 1 46
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vtb_fullmnist
+R1
+DXx4 work 20 tb_fullmnist_sv_unit 0 22 gPGa9^6_c=Kd]<:b1E5J<1
+R2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 RTEZa43<1CV]iE@o?Qb8`1
+Igo`I?d:KPM`QF11j;=WS71
+!s105 tb_fullmnist_sv_unit
+S1
+R0
+Z11 w1667496269
+Z12 8../testbench/tb_fullmnist.sv
+Z13 F../testbench/tb_fullmnist.sv
+!i122 19
+L0 11 229
+R5
+31
+R6
+Z14 !s107 ../testbench/tb_fullmnist.sv|
+Z15 !s90 ../testbench/tb_fullmnist.sv|
+!i113 0
+R9
+R10
+Ttb_fullmnist_exact_opt
+R2
+VHn16]b0e[H^JbB<j7BfJY2
+04 12 4 work tb_fullmnist fast 0
+o-work work
+R10
+ntb_fullmnist_exact_opt
+OL;O;2020.1_1;71
+Xtb_fullmnist_sv_unit
+R1
+R2
+VgPGa9^6_c=Kd]<:b1E5J<1
+r1
+!s85 0
+!i10b 1
+!s100 zS=3B9^;:[99U;2_LBo9N3
+IgPGa9^6_c=Kd]<:b1E5J<1
+!i103 1
+S1
+R0
+R11
+R12
+R13
+!i122 19
+L0 1 0
+R5
+31
+R6
+R14
+R15
+!i113 0
+R9
+R10

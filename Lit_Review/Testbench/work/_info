@@ -1,0 +1,170 @@
+m255
+K4
+z2
+!s11f vlog 2020.1_1 2020.03, Mar  4 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/xix277/engr-ece/Fall_Sem_2023/CME433/Lit_Review/Testbench
+T_opt
+!s110 1700351968
+V^;>AE;0<i5]>@?0_[zlhj0
+04 17 4 work log_multiplier_tb fast 0
+=1-b07b25243100-65594fe0-89d40-6f02
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.1_1;71
+vadder
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1700351965
+!i10b 1
+!s100 ohIQ0i3]H@`c9C3Go<L<h3
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaIGhBNimN8]I7L`2S5inh0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1700346765
+8dut/adder.sv
+Fdut/adder.sv
+!i122 0
+L0 1 13
+Z6 OL;L;2020.1_1;71
+r1
+!s85 0
+31
+Z7 !s108 1700351965.000000
+Z8 !s107 verification/log_multiplier_tb.sv|dut/log_multiplier.sv|dut/log_converter.sv|dut/lod.sv|dut/antilog_converter.sv|dut/adder.sv|
+Z9 !s90 -f|script/tut.f|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vantilog_converter
+R2
+R3
+!i10b 1
+!s100 Gm_4=ZgWF;N^:WM;]G4n]0
+R4
+Ik?<SgVEmTh67j<9aH9[Gj3
+R5
+S1
+R0
+w1700351938
+8dut/antilog_converter.sv
+Fdut/antilog_converter.sv
+!i122 0
+Z11 L0 1 22
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vlod
+R2
+R3
+!i10b 1
+!s100 lnj_HUd`>jT7o8];1K]zV0
+R4
+I=Il5LWS@fe>8zD@N_J1@i1
+R5
+S1
+R0
+w1700346801
+8dut/lod.sv
+Fdut/lod.sv
+!i122 0
+R11
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vlog_converter
+R2
+R3
+!i10b 1
+!s100 CEPKnVSoTni<mKnZoc7TY2
+R4
+IgY2N::<:=HW9jooL@8H[P0
+R5
+S1
+R0
+w1700346788
+8dut/log_converter.sv
+Fdut/log_converter.sv
+!i122 0
+L0 1 9
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vlog_multiplier
+R2
+R3
+!i10b 1
+!s100 3FKU8b6X@^PKK`<B<:daO3
+R4
+IBVPRK6ob1NJDVHP]^WKTn3
+R5
+S1
+R0
+w1700346811
+8dut/log_multiplier.sv
+Fdut/log_multiplier.sv
+!i122 0
+L0 1 54
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vlog_multiplier_tb
+R2
+R3
+!i10b 1
+!s100 6RVE:cE^aSZ1GV9fbdM?h0
+R4
+Iam0CZ2GIlP7A:6W5iXE;;3
+R5
+S1
+R0
+w1700348134
+8verification/log_multiplier_tb.sv
+Fverification/log_multiplier_tb.sv
+!i122 0
+L0 1 49
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

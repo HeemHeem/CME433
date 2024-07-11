@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Nov 27 17:31:34 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Standard Edition
+Revision Name : approx_log_multiplier_modified
+Top-level Entity Name : approx_log_multiplier_modified
+Family : Cyclone IV E
+Total logic elements : 152
+    Total combinational functions : 136
+    Dedicated logic registers : 32
+Total registers : 32
+Total pins : 33
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

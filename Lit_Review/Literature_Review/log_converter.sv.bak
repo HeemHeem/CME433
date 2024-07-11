@@ -1,0 +1,10 @@
+`include "params.sv"
+module log_converter (
+    input wire [`K_SIZE:0] k,
+    input wire [`DATA_SIZE-1:0] x,
+    output wire [`DATA_SIZE+`K_SIZE-1:0] out
+);
+
+assign out = {k, x};
+
+endmodule

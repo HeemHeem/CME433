@@ -1,0 +1,8 @@
+module ripple_carry_adder( 
+	input reg A, B, Cin,
+	output reg S, Cout);
+	
+	
+
+endmodule
+	

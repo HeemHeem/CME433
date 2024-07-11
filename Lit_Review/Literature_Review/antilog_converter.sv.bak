@@ -1,0 +1,5 @@
+module antilog_converter(
+	input bit 
+	);
+	
+endmodule

@@ -1,0 +1,13 @@
+module carry_lookahead_adder(
+	input wire a, b, cin,
+	output wire, s, p, g
+);
+
+assign p = a | b;
+assign g = a & b;
+assign s = a + b;
+
+
+
+
+endmodule

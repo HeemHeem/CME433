@@ -1,0 +1,45 @@
+matrix multipliaction
+
+following example of vector addition
+
+vector addition ran on cpu
+
+using opencl to pass instructions to gpu
+
+extend example to matrix multiplication
+
+
+
+background
+
+do not pre-compile open_cl files. only compile c files
+
+
+
+GPU operation
+
+think if it as a cube that is 256x256x256 (max dimenions, max item sizes)
+max work group sizes tells you how much you can use before you run out
+can just let gpu handle it
+
+
+Terminology
+
+Local Work Items - on a single comp/work item what is it doing. just the smallest chunk size the gpu is working with
+
+Global Work Items - need another numbering scheme to keep track of local. ie when it becomes huge, need something to keep track
+
+specify how big global work size in powers of 2, 2^1, 2^3 etc etc
+
+
+most of the things will be the same. things that will be different are the malloc sizes
+
+try to verify in matlab that it is working properly
+
+Local work group sizes here will be 2 dimensional
+
+easier to implement if you have indices for rows and columns
+
+
+
+

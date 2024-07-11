@@ -1,0 +1,220 @@
+m255
+K4
+z2
+!s11f vlog 2020.1_1 2020.03, Mar  4 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/trh600/engr-ece/Documents/CME433/Literature_Review/log_multiplier/test_bench
+T_opt
+!s110 1701123325
+VFn3R52Xnhabj85ZUYYQYW2
+04 17 4 work log_multiplier_tb fast 0
+=1-b07b25242c3f-656514fd-9ae73-d5ea
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.1_1;71
+vadder
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1701123324
+!i10b 1
+!s100 2g^OhDF5:Cn]f?CV8ASi43
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3DJhl1?Ni4l@]6ceWf`0V3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1700427443
+8dut/adder.sv
+Fdut/adder.sv
+!i122 0
+Z6 L0 1 8
+Z7 OL;L;2020.1_1;71
+r1
+!s85 0
+31
+Z8 !s108 1701123324.000000
+Z9 !s107 verification/log_multiplier_tb.sv|dut/sign_set.sv|dut/sign_detector.sv|dut/log_multiplier.sv|dut/log_converter.sv|dut/lod.sv|dut/antilog_converter.sv|dut/adder.sv|
+Z10 !s90 -f|script/tut.f|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vantilog_converter
+R2
+R3
+!i10b 1
+!s100 fg5TaKk?;7J`3L:hegz^o3
+R4
+I5UC5Gnj5z7f`CXOImN?2W0
+R5
+S1
+R0
+w1700588231
+8dut/antilog_converter.sv
+Fdut/antilog_converter.sv
+!i122 0
+L0 1 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vlod
+R2
+R3
+!i10b 1
+!s100 `Pg>nWU:13?ibn=cnS[0@3
+R4
+IcL@1OeST[U[n7^29FjgQG2
+R5
+S1
+R0
+w1700428835
+8dut/lod.sv
+Fdut/lod.sv
+!i122 0
+L0 1 23
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vlog_converter
+R2
+R3
+!i10b 1
+!s100 lPCEDDUBa=0oAiPYeLk^92
+R4
+I9Y>i6JbmZD22PdW8j]FNd0
+R5
+S1
+R0
+w1700427337
+8dut/log_converter.sv
+Fdut/log_converter.sv
+!i122 0
+L0 1 9
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vlog_multiplier
+R2
+R3
+!i10b 1
+!s100 3JIdMhm3^^[@YRi@cdXfc2
+R4
+InhdN_L^Lk69z9BBb9W>Y?0
+R5
+S1
+R0
+w1700602546
+8dut/log_multiplier.sv
+Fdut/log_multiplier.sv
+!i122 0
+L0 1 84
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vlog_multiplier_tb
+R2
+R3
+!i10b 1
+!s100 m0;z2Ac4ZY=5Qd_h;>5O10
+R4
+IkDaloi`ge2cNPEhW2oWPX3
+R5
+S1
+R0
+w1701123322
+8verification/log_multiplier_tb.sv
+Fverification/log_multiplier_tb.sv
+!i122 0
+L0 1 39
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vsign_detector
+R2
+R3
+!i10b 1
+!s100 E5VlgzOgBXZ@YA5ikdgag2
+R4
+IVIbTI9fiM6TlD?QYUkD1N3
+R5
+S1
+R0
+w1700587733
+8dut/sign_detector.sv
+Fdut/sign_detector.sv
+!i122 0
+L0 1 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vsign_set
+R2
+R3
+!i10b 1
+!s100 8YVF[On1feeEFZfijK5kg0
+R4
+IbD2c[=g=4b8JRHJ2fmM3z2
+R5
+S1
+R0
+w1700588131
+8dut/sign_set.sv
+Fdut/sign_set.sv
+!i122 0
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

@@ -1,0 +1,2 @@
++incdir+"./dut"
++incdir+"./verification"

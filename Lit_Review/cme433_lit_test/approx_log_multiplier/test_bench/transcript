@@ -1,0 +1,58 @@
+# vsim -c approx_log_multiplier_tb -do "script/tut_sim.do" 
+# Start time: 18:01:10 on Nov 21,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.approx_log_multiplier_tb(fast)
+# do script/tut_sim.do
+# -128 * -128 =  16896. Expect  16384. Error 3.125000%
+# -123 *  -71 =   8448. Expect   8733. Error 3.263483%
+# -123 *  -69 =   8192. Expect   8487. Error 3.475904%
+# -121 *  -79 =   9216. Expect   9559. Error 3.588241%
+# -121 *  -77 =   8960. Expect   9317. Error 3.831705%
+# -121 *  -75 =   8704. Expect   9075. Error 4.088154%
+# -121 *  -73 =   8448. Expect   8833. Error 4.358655%
+# -121 *  -71 =   8192. Expect   8591. Error 4.644395%
+# -119 *  -79 =   8960. Expect   9401. Error 4.690990%
+# -119 *  -77 =   8704. Expect   9163. Error 5.009276%
+# -119 *  -75 =   8448. Expect   8925. Error 5.344538%
+# -119 *  -73 =   8192. Expect   8687. Error 5.698170%
+# -117 *  -79 =   8704. Expect   9243. Error 5.831440%
+# -117 *  -77 =   8448. Expect   9009. Error 6.227106%
+# -117 *  -75 =   8192. Expect   8775. Error 6.643875%
+# -115 *  -79 =   8448. Expect   9085. Error 7.011558%
+# -115 *  -77 =   8192. Expect   8855. Error 7.487295%
+# -113 *  -81 =   8448. Expect   9153. Error 7.702393%
+# -113 *  -79 =   8192. Expect   8927. Error 8.233449%
+# -111 *  -83 =   8448. Expect   9213. Error 8.303484%
+# -111 *  -81 =   8192. Expect   8991. Error 8.886664%
+# -109 *  -83 =   8192. Expect   9047. Error 9.450647%
+# -107 *  -85 =   8192. Expect   9095. Error 9.928532%
+# -105 *  -87 =   8192. Expect   9135. Error 10.322934%
+# -103 *  -89 =   8192. Expect   9167. Error 10.635977%
+# -101 *  -91 =   8192. Expect   9191. Error 10.869329%
+#  -99 *  -93 =   8192. Expect   9207. Error 11.024221%
+#  -97 *  -95 =   8192. Expect   9215. Error 11.101465%
+#   -6 *   -3 =     16. Expect     18. Error 11.111111%
+# Max error:    11.111111%
+# Low bracket:  51676 	- 78.851318%
+# Med bracket:  13632 	- 20.800781%
+# High bracket: 228 	- 0.347900%
+# Sky bracket:  0 	- 0.000000%
+# ** Note: $finish    : verification/approx_log_multiplier_tb.sv(86)
+#    Time: 2621540 ns  Iteration: 0  Instance: /approx_log_multiplier_tb
+# End time: 18:01:12 on Nov 21,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

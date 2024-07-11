@@ -1,0 +1,66 @@
+module log_multiplier(
+	input  bit [7:0]  A, B,
+	output bit        zero_flag_A, zero_flag_B,
+	output bit [2:0]  k1, k2, 
+	output bit [6:0]  x1, x2,
+    output bit [6:2]  x1_t, x2_t,
+	output bit [9:0]  log_A, log_B,
+	output bit [10:0] log_result,
+	output bit [15:0] result
+	);
+	
+	// LOD
+	lod lod_A(
+		.data(A),
+		.zero_flag(zero_flag_A),
+		.pos(k1),
+		.fraction(x1)
+	);
+	
+	lod lod_B(
+		.data(B),
+		.zero_flag(zero_flag_B),
+		.pos(k2),
+		.fraction(x2)
+	);
+
+    // Dynamic Truncation
+    dynamic_truncation dynamic_truncation_A(
+        .x(x1),
+        .x_t(x1_t)
+    );
+
+    dynamic_truncation dynamic_truncation_B(
+        .x(x2),
+        .x_t(x2_t)
+    );
+	
+	// Logarithmic Converter
+	log_converter log_converter_A(
+		.k(k1),
+		.x_t(x1_t),
+		.log_value(log_A)
+	);
+	
+	log_converter log_converter_B(
+		.k(k2),
+		.x_t(x2_t),
+		.log_value(log_B)
+	);
+	
+	// Adder
+	adder adder(
+		.op1(log_A),
+		.op2(log_B),
+		.sum(log_result)
+	);
+	
+	// Antilogarithmic Converter
+    bit [15:0] temp_result;
+	antilog_converter antilog_converter(
+		.log_result(log_result),
+		.result(temp_result)
+	);
+
+    assign result = (zero_flag_A || zero_flag_B) ? 0 : temp_result;
+endmodule

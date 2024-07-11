@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Mon Nov 27 16:27:12 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Standard Edition
+Revision Name : log_multiplier
+Top-level Entity Name : log_multiplier
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Power Models : Final
+Total Thermal Power Dissipation : 137.02 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 98.50 mW
+I/O Thermal Power Dissipation : 38.53 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

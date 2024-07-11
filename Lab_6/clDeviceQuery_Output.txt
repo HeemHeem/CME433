@@ -1,0 +1,55 @@
+clDeviceQuery Starting...
+
+1 OpenCL Platforms found
+
+ CL_PLATFORM_NAME: 	Intel(R) OpenCL HD Graphics
+ CL_PLATFORM_VERSION: 	OpenCL 3.0 
+OpenCL Device Info:
+
+ 1 devices found supporting OpenCL on: Intel(R) OpenCL HD Graphics
+
+ ----------------------------------
+ Device Intel(R) UHD Graphics 630 [0x9bc5]
+ ---------------------------------
+  CL_DEVICE_NAME: 			Intel(R) UHD Graphics 630 [0x9bc5]
+  CL_DEVICE_VENDOR: 			Intel(R) Corporation
+  CL_DRIVER_VERSION: 			21.38.21026
+  CL_DEVICE_TYPE:			CL_DEVICE_TYPE_GPU
+  CL_DEVICE_MAX_COMPUTE_UNITS:		24
+  CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS:	3
+  CL_DEVICE_MAX_WORK_ITEM_SIZES:	256 / 256 / 256 
+  CL_DEVICE_MAX_WORK_GROUP_SIZE:	256
+  CL_DEVICE_MAX_CLOCK_FREQUENCY:	1200 MHz
+  CL_DEVICE_ADDRESS_BITS:		64
+  CL_DEVICE_MAX_MEM_ALLOC_SIZE:		4095 MByte
+  CL_DEVICE_GLOBAL_MEM_SIZE:		25492 MByte
+  CL_DEVICE_ERROR_CORRECTION_SUPPORT:	no
+  CL_DEVICE_LOCAL_MEM_TYPE:		local
+  CL_DEVICE_LOCAL_MEM_SIZE:		64 KByte
+  CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE:	4194296 KByte
+  CL_DEVICE_QUEUE_PROPERTIES:		CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE
+  CL_DEVICE_QUEUE_PROPERTIES:		CL_QUEUE_PROFILING_ENABLE
+  CL_DEVICE_IMAGE_SUPPORT:		1
+  CL_DEVICE_MAX_READ_IMAGE_ARGS:	128
+  CL_DEVICE_MAX_WRITE_IMAGE_ARGS:	128
+
+  CL_DEVICE_IMAGE <dim>			2D_MAX_WIDTH	 16384
+					2D_MAX_HEIGHT	 16384
+					3D_MAX_WIDTH	 16384
+					3D_MAX_HEIGHT	 16384
+					3D_MAX_DEPTH	 2048
+  CL_DEVICE_PREFERRED_VECTOR_WIDTH_<t>	CHAR 16, SHORT 8, INT 4, FLOAT 1, DOUBLE 1
+
+
+clDeviceQuery, Platform Name = Intel(R) OpenCL HD Graphics, Platform Version = OpenCL 3.0 , NumDevs = 1, Device = Intel(R) UHD Graphics 630 [0x9bc5]
+
+System Info: 
+
+ Local Time/Date =  12:17:03, 12/02/2023
+ CPU Name: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 
+ # of CPU processors: 16
+ Linux version 4.18.0-305.el8.x86_64 (mockbuild@x86-vm-07.build.eng.bos.redhat.com) (gcc version 8.4.1 20200928 (Red Hat 8.4.1-1) (GCC)) #1 SMP Thu Apr 29 08:54:30 EDT 2021
+
+
+TEST PASSED
+

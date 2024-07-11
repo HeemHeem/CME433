@@ -1,0 +1,45 @@
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -voptargs="+acc" log_multiplier_tb 
+# Start time: 17:59:28 on Nov 18,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.log_multiplier_tb(fast)
+# Loading work.log_multiplier(fast)
+# Loading work.lod(fast)
+# Loading work.log_converter(fast)
+# Loading work.adder(fast)
+# Loading work.antilog_converter(fast)
+add wave -position insertpoint  \
+sim:/log_multiplier_tb/A \
+sim:/log_multiplier_tb/B \
+sim:/log_multiplier_tb/zero_flag_A \
+sim:/log_multiplier_tb/zero_flag_B \
+sim:/log_multiplier_tb/k1 \
+sim:/log_multiplier_tb/k2 \
+sim:/log_multiplier_tb/x1 \
+sim:/log_multiplier_tb/x2 \
+sim:/log_multiplier_tb/log_A \
+sim:/log_multiplier_tb/log_B \
+sim:/log_multiplier_tb/log_result \
+sim:/log_multiplier_tb/fraction_sum_carry \
+sim:/log_multiplier_tb/result
+run -all
+# ** Note: $finish    : verification/log_multiplier_tb.sv(46)
+#    Time: 105 ns  Iteration: 0  Instance: /log_multiplier_tb
+# 1
+# Break in Module log_multiplier_tb at verification/log_multiplier_tb.sv line 46
+# End time: 18:14:16 on Nov 18,2023, Elapsed time: 0:14:48
+# Errors: 0, Warnings: 0

@@ -1,0 +1,7 @@
+module CLA_Adder_4bit(
+	input wire cin, clk,
+	input [3:0] a, b,
+	output reg G, P,
+	output reg [3:0] sum
+);
+
